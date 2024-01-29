@@ -1,7 +1,7 @@
 -- Fetch all users name from database
 select name from user;
 
--- Fetch all tweets of user by userid most recent tweets first(change the userid as need)
+-- Fetch all tweets of user by userid most recent tweets first(change the userid as need)(here i have included retweets also in tweet)
 select * from tweet where userid="3" order by timestamp desc;
 
 -- Fetch like count of particular tweet by tweetid(change the tweetid as need)
